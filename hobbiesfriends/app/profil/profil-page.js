@@ -1,6 +1,6 @@
-import { SearchViewModel } from './search-view-model'
+import { ProfilViewModel } from './profil-view-model'
 
 export function onNavigatingTo(args) {
   const component = args.object
-  component.bindingContext = new SearchViewModel()
+  component.bindingContext = new ProfilViewModel()
 }

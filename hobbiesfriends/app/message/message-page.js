@@ -1,6 +1,6 @@
-import { BrowseViewModel } from './browse-view-model'
+import { MessageViewModel } from './message-view-model'
 
 export function onNavigatingTo(args) {
   const component = args.object
-  component.bindingContext = new BrowseViewModel()
+  component.bindingContext = new MessageViewModel()
 }

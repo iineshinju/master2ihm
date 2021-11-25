@@ -3,11 +3,11 @@
         <Frame defaultPage="home/home-items-page" />
     </TabViewItem>
 
-    <TabViewItem title="Browse" >
-        <Frame defaultPage="browse/browse-page" />
+    <TabViewItem title="Message" >
+        <Frame defaultPage="message/message-page" />
     </TabViewItem>
 
-    <TabViewItem title="Search" >
-        <Frame defaultPage="search/search-page" />
+    <TabViewItem title="Profil" >
+        <Frame defaultPage="profil/profil-page" />
     </TabViewItem>
 </TabView>
