@@ -3,7 +3,7 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ActionBar>
-        <Label text="Browse"></Label>
+        <Label text="Home"></Label>
     </ActionBar>
 
     <GridLayout class="page__content">

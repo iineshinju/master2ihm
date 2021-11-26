@@ -1,8 +1,8 @@
-import { HomeItemsViewModel } from './home-items-view-model'
+import { MessgaeItemsViewModel } from './message-items-view-model'
 
 export function onNavigatingTo(args) {
   const component = args.object
-  component.bindingContext = new HomeItemsViewModel()
+  component.bindingContext = new MessageItemsViewModel()
 }
 
 export function onItemTap(args) {
@@ -11,7 +11,7 @@ export function onItemTap(args) {
   const tappedItem = view.bindingContext
 
   page.frame.navigate({
-    moduleName: 'home/home-item-detail/home-item-detail-page',
+    moduleName: 'message/message-item-detail/message-item-detail-page',
     context: tappedItem,
     animated: true,
     transition: {

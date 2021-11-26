@@ -1,6 +1,6 @@
 import { fromObject } from '@nativescript/core'
 
-export function HomeItemsViewModel() {
+export function MessageItemsViewModel() {
   const viewModel = fromObject({
     items: [
       {

@@ -1,10 +1,10 @@
 <TabView androidTabsPosition="bottom">
     <TabViewItem title="Home" >
-        <Frame defaultPage="home/home-items-page" />
+        <Frame defaultPage="home/home-page" />
     </TabViewItem>
 
     <TabViewItem title="Message" >
-        <Frame defaultPage="message/message-page" />
+        <Frame defaultPage="message/message-items-page" />
     </TabViewItem>
 
     <TabViewItem title="Profil" >
