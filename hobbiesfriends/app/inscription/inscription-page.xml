@@ -1,14 +1,22 @@
 <Page
     navigatingTo="onNavigatingTo"  
-    xmlns="http://schemas.nativescript.org/tns.xsd">
+    xmlns="http://schemas.nativescript.org/tns.xsd" >
+    <!--xmlns:gsb="nativescript-plugin-google-signin-button" --> 
+    <ActionBar></ActionBar>
 
-    <ActionBar>
-        <Label text="Browse"></Label>
-    </ActionBar>
-
-    <GridLayout class="page__content">
-        <Label  text="Inscription"  />
-        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
-        <Label class="page__content-placeholder" text="Browse page content goes here "></Label>
-    </GridLayout>
+    <StackLayout class="page__content">
+        <Label  text="Inscription" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
+       <!-- <gsb:GsbButton id="gsbButton" horizontalAlignment="left" tap="gsbTap"/> -->
+       <Button text="Google" class="inscriptionButton" style ="display:inline-block"  ></Button> 
+       <Button text="Facebook" class="inscriptionButton" style ="display:inline-block"></Button>
+       <label text="ou inscrivez-vous avec votre email" textAlignment="center"/>
+       <TextField  hint="Nom d'utilisateur" color="darkblue" marginBottom="10" />
+       <TextField  hint="Numéro de téléphone" color="darkblue" marginBottom="10" />
+       <TextField  hint="Mail" color="darkblue" marginBottom="10" />
+       <TextField  hint="Mot de passe" color="darkblue" marginBottom="10" />
+       <TextField  hint="Confirmation du mot de passe" color="darkblue" marginBottom="10" />
+       <Button text="Inscription"   ></Button> 
+       <Label  text="Vous avez déjà un compte?"/>
+       <Button text="Connectez-vous" ></Button>
+    </StackLayout>
 </Page>
