@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.27124,0,0,1.15828,2.39377,-175.893)">
+        <ellipse cx="294.75" cy="302.5" rx="64.25" ry="64.5" style="fill:rgb(251,91,91);stroke:rgb(251,91,91);stroke-width:1.46px;"/>
+    </g>
+    <g transform="matrix(1.27968,0,0,1.15828,303.574,-176.254)">
+        <ellipse cx="294.75" cy="302.5" rx="64.25" ry="64.5" style="fill:rgb(91,210,250);stroke:rgb(91,210,250);stroke-width:1.45px;"/>
+    </g>
+    <g transform="matrix(1.92935,0,0,1.80195,-388.613,-397.435)">
+        <path d="M398.878,375.752C384.652,364.678 349.362,356.941 342.914,398.668C337.811,431.693 371.44,479.166 419.705,497.496C467.35,515.591 522.431,508.405 526.571,500.995C534.904,486.078 526.618,447.852 508.534,437.935C491.129,428.39 460.27,443.875 443,434.5C425.73,425.125 413.765,387.34 398.878,375.752Z" style="fill:rgb(251,91,91);stroke:rgb(252,92,92);stroke-width:0.95px;"/>
+    </g>
+    <g transform="matrix(1.92935,0,0,1.80195,-388.613,-397.435)">
+        <path d="M473.811,436.53C449.927,450.115 468.709,501.822 502.048,506.363C554.951,513.569 608.622,410.175 594.128,380.81C584.461,361.225 557.704,364.541 545.893,373.562C534.083,382.583 531.41,409.768 522.064,419.356C504.857,437.01 479.348,433.381 473.811,436.53Z" style="fill:rgb(91,210,251);stroke:rgb(91,210,250);stroke-width:0.95px;"/>
+    </g>
+    <g transform="matrix(2.14909,0,0,2.74276,-443.594,-893.845)">
+        <text x="339.811px" y="547.572px" style="font-family:'MarkerFelt-Wide', 'Marker Felt';font-weight:700;font-size:33px;fill:rgb(91,210,250);">H<tspan x="361.393px 378.784px 396.01px 413.17px 421.09px 437.227px " y="547.572px 547.572px 547.572px 547.572px 547.572px 547.572px ">obbies</tspan></text>
+        <text x="459.007px" y="547.572px" style="font-family:'MarkerFelt-Wide', 'Marker Felt';font-weight:700;font-size:33px;fill:rgb(251,91,91);">F<tspan x="473.758px 488.146px 496.066px 512.104px 529.825px 547.315px " y="547.572px 547.572px 547.572px 547.572px 547.572px 547.572px ">riends</tspan></text>
+    </g>
+</svg>
