@@ -2,12 +2,10 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
-        <Label text="Browse"></Label>
-    </ActionBar>
-
-    <GridLayout class="page__content">
-        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
-    </GridLayout>
+    <StackLayout class="page__content">
+        <Label text="Une passion, un ami"></Label>
+        <Image src="../images/logo.png"></Image>
+        <Button text="Inscription" tap="toInscription"></Button>
+        <Button text="Connexion" tap="toConnexion"></Button>
+    </StackLayout>
 </Page>
