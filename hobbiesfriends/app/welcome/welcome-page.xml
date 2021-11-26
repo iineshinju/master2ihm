@@ -4,7 +4,7 @@
 
     <StackLayout class="page__content">
         <Label text="Une passion, un ami"></Label>
-        <Image src="../images/logo.png"></Image>
+        <Image src="~/images/logo.png"></Image>
         <Button text="Inscription" tap="toInscription"></Button>
         <Button text="Connexion" tap="toConnexion"></Button>
     </StackLayout>
