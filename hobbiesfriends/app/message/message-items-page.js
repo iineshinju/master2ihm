@@ -1,4 +1,4 @@
-import { MessgaeItemsViewModel } from './message-items-view-model'
+import { MessageItemsViewModel } from './message-items-view-model'
 
 export function onNavigatingTo(args) {
   const component = args.object
