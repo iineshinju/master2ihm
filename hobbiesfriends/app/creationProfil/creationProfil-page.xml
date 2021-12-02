@@ -1,0 +1,9 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <GridLayout class="page__content">
+        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
+        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
+    </GridLayout>
+</Page>
