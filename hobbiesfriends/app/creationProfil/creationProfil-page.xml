@@ -2,8 +2,29 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <GridLayout class="page__content">
-        <Label class="page__content-icon far" text="&#xf1ea;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Browse page content goes here -->"></Label>
-    </GridLayout>
+    <ActionBar></ActionBar>
+
+    <StackLayout class="page__content"  >
+        <Label  text="Créez votre profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
+        <Button text="Ajoutez une photo de profil" ></Button>
+        <Button text="Localisation" class="localisationButton" style ="display:inline-block"  ></Button> 
+       <label text="A propos" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
+       <label text="Nom - Prénom"  />
+       <TextField  hint="Insérez votre nom et prénom" color="darkblue" marginBottom="10" />
+       <label text="Email"  />
+       <TextField  hint="Insérez votre email" color="darkblue" marginBottom="10" />
+       <label text="Date de naissance"  />
+       <!--<DatePicker year=" 1990" month="01" day="01"> </DatePicker>  -->
+       <label text="Genre"  />
+      <!-- <ListPicker items="{{items}}" /> -->
+       <!-- <select name="genre">
+        <option value=""Choisissez une option</option>
+        <option value="homme">Homme</option>
+        <option value="femme">Femme</option>
+        <option value="autre">Autre</option>
+        </select>
+    -->
+       <label text="Vos passions"  />
+       <Button text="Ajouter des passions" horizontalAlignment="left" ></Button>
+    </StackLayout>
 </Page>

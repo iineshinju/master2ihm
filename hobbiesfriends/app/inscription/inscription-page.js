@@ -8,7 +8,7 @@ export function onNavigatingTo(args) {
 export function toLogin(args) {
   const button = args.object;
   const page = button.page;
-  page.frame.navigate("~/login/login-page");
+  page.frame.navigate("~/creationProfil/creationProfil-page");
 }
 
 export function alertCreation() {
