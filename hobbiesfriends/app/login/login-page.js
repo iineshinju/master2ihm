@@ -5,12 +5,6 @@ export function onNavigatingTo(args) {
   component.bindingContext = new LoginViewModel()
 }
 
-export function toPassword(args) {
-  const button = args.object;
-  const page = button.page;
-  page.frame.navigate("~/login/password-page");
-}
-
 export function toGoogle(args) {
   const Googlelogin = {
     title: "Connexion à votre compte Google",
@@ -51,4 +45,16 @@ export function toFacebook(args) {
     }
   });
 
+}
+
+export function toPassword(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/login/password-page");
+}
+
+export function toHome(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/home/home-page");
 }
