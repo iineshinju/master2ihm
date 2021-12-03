@@ -15,7 +15,7 @@
        <TextField  hint="Mail" color="darkblue" marginBottom="10" keyboardType="email" />
        <TextField  hint="Mot de passe" color="darkblue" marginBottom="10"  secure="true" />
        <TextField  hint="Confirmation du mot de passe" color="darkblue" marginBottom="10" secure="true" />
-       <Button text="Inscription" tap="alertCreation"  ></Button> 
+       <Button text="Inscription" tap="toProfil"  ></Button> 
        <Label  text="Vous avez déjà un compte?" />
        <Button text="Connectez-vous" tap="toLogin" ></Button>
     </StackLayout>
