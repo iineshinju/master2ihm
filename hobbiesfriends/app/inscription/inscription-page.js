@@ -26,6 +26,26 @@ export function toGoogle(args) {
 
 }
 
+export function toFacebook(args) {
+  const Facebooklogin = {
+    title: "Connexion à votre compte Facebook",
+    message: "Entrez votre identifiant et votre mot de passe :",
+    okButtonText: "Connexion",
+    cancelButtonText: "Retour",
+    userNameHint: "Entrez votre identifiant",
+    passwordHint: "Entrez votre mot de passe"
+  };
+
+  login(Facebooklogin).then((loginResult) => {
+    console.log(loginResult.result);
+    const choice = args.object;
+    const page = choice.page;
+    if (loginResult.result && loginResult.userName != "" && loginResult.password != "") {
+      page.frame.navigate("~/home/home-page");
+    }
+  });
+}
+
 export function toProfil(args) {
   const button = args.object;
   const page = button.page;
