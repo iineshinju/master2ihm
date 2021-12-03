@@ -6,11 +6,12 @@
         <Label text="Connexion" col="0" row="0"></Label>
         <Button text="Google" tap="toGoogle" col="0" row="1"></Button>
         <Button text="Facebook" tap="toFacebook" col="1" row="1"></Button>
-        <Label text="Ou connectez-vous avec votre adresse email" col="0" row="2"></Label>
+        <Label text="Ou connectez-vous avec votre adresse email" colSpan="2" col="0" row="2"></Label>
         <TextField hint="Nom d'utilisateur" borderColor="blue" col="0" row="3" colSpan="2"/>
         <TextField hint="Mot de passe" borderColor="red" col="0" row="4" colSpan="2" secure="true"/>
         <Button text="Mot de passe oublié ?" col="1" row="5" tap="toPassword"></Button>
         <Button text="Connexion" tap="toHome" col="0" row="6" colSpan="2"></Button>
-        <Label text="Vous n'avez pas de compte ? Créez-en un" colSpan="2" row="8" col="0"></Label> 
+        <Label text="Vous n'avez pas de compte ?" row="8" col="0"></Label>
+		<Button text="Créez-en un" tap="toInscription" row="8" col="1"></Button>
     </GridLayout>
 </Page>
