@@ -58,3 +58,9 @@ export function toHome(args) {
   const page = button.page;
   page.frame.navigate("~/home/home-page");
 }
+
+export function toInscription(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/inscription/inscription-page");
+}
