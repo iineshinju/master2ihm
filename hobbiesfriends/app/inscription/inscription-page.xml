@@ -7,7 +7,7 @@
     <StackLayout class="page__content"  >
         <Label  text="Inscription" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
        <!-- <gsb:GsbButton id="gsbButton" horizontalAlignment="left" tap="gsbTap"/> -->
-       <Button text="Google" class="inscriptionButton" style ="display:inline-block"  ></Button> 
+       <Button text="Google" tap="toGoogle" class="inscriptionButton" style ="display:inline-block"  ></Button> 
        <Button text="Facebook" class="inscriptionButton" style ="display:inline-block" ></Button>
        <label text="ou inscrivez-vous avec votre email" textAlignment="center" />
        <TextField  hint="Nom d'utilisateur" color="darkblue" marginBottom="10" />
