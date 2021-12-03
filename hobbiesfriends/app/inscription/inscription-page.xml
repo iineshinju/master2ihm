@@ -11,8 +11,8 @@
        <Button text="Facebook" class="inscriptionButton" style ="display:inline-block" ></Button>
        <label text="ou inscrivez-vous avec votre email" textAlignment="center" />
        <TextField  hint="Nom d'utilisateur" color="darkblue" marginBottom="10" />
-       <TextField  hint="Numéro de téléphone" color="darkblue" marginBottom="10"  />
-       <TextField  hint="Mail" color="darkblue" marginBottom="10"  />
+       <TextField  hint="Numéro de téléphone" color="darkblue" marginBottom="10" keyboardType="phone"  />
+       <TextField  hint="Mail" color="darkblue" marginBottom="10" keyboardType="email" />
        <TextField  hint="Mot de passe" color="darkblue" marginBottom="10"  secure="true" />
        <TextField  hint="Confirmation du mot de passe" color="darkblue" marginBottom="10" secure="true" />
        <Button text="Inscription" tap="alertCreation"  ></Button> 
