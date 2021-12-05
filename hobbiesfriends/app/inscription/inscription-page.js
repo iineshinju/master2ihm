@@ -41,7 +41,7 @@ export function toFacebook(args) {
     const choice = args.object;
     const page = choice.page;
     if (loginResult.result && loginResult.userName != "" && loginResult.password != "") {
-      page.frame.navigate("~/home/home-page");
+      page.frame.navigate("~/creationProfil/creationProfil-page");
     }
   });
 }
