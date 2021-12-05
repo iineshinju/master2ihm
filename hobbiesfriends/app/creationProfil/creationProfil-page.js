@@ -25,3 +25,9 @@ export function toAjoutPassions(args) {
   const page = button.page;
   page.frame.navigate("~/ajoutPassions/ajoutPassions-page");
 }
+
+export function toNotifications(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/notifications/notifications-page");
+}

@@ -26,5 +26,7 @@
     -->
        <label text="Vos passions"  />
        <Button text="Ajouter des passions" horizontalAlignment="left"  tap="toAjoutPassions" > </Button>
+       <label text="Notifications"  />
+       <Button text="Ajouter des notifications" horizontalAlignment="left"  tap="toNotifications" > </Button>
     </StackLayout>
 </Page>
