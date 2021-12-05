@@ -19,3 +19,9 @@ export function toLocalisation(args) {
   const page = button.page;
   page.frame.navigate("~/localisation/localisation-page");
 }
+
+export function toAjoutPassions(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/ajoutPassions/ajoutPassions-page");
+}

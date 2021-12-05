@@ -25,6 +25,6 @@
         </select>
     -->
        <label text="Vos passions"  />
-       <Button text="Ajouter des passions" horizontalAlignment="left" ></Button>
+       <Button text="Ajouter des passions" horizontalAlignment="left"  tap="toAjoutPassions" > </Button>
     </StackLayout>
 </Page>
