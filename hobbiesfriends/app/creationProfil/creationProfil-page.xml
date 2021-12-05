@@ -16,17 +16,11 @@
        <TextField  hint="Insérez votre email" color="darkblue" marginBottom="10" />
        <label text="Date de naissance"  />
        <!--<DatePicker year=" 1990" month="01" day="01"> </DatePicker>  -->
+       <DatePicker year="{{ currentYear }}" month="{{ currentMonth }}"
+                day="{{ currentDay}}" minDate="1970-01-01"
+                maxDate="2100-12-31" />
        <label text="Genre"  />
-      <!-- <dd:DropDown items="{{ genre }}" hint="Selectionnez votre genre" 
-                 style="background-color: cyan" /> -->
       <ListPicker items="{{ genre }}" selectedIndex="{{ selectedListPickerIndex }}"/>
-      <!--  <select name="genre">
-        <option value="Choisissez une option"></option>
-        <option value="homme">Homme</option>
-        <option value="femme">Femme</option>
-        <option value="autre">Autre</option>
-        </select>
-    -->
        <label text="Vos passions"  />
        <Button text="Ajouter des passions" horizontalAlignment="left"  tap="toAjoutPassions" > </Button>
        <label text="Notifications"  />
