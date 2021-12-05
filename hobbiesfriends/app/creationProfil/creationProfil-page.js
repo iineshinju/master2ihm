@@ -3,7 +3,6 @@ import { CreationProfilViewModel } from './creationProfil-view-model';
 
 
 export function onNavigatingTo(args) {
-  const items = ["Batman", "Joker", "Bane"];
    const component = args.object
   component.bindingContext = new CreationProfilViewModel()
 }

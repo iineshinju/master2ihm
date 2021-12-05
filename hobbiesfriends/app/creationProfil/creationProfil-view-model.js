@@ -6,7 +6,7 @@ export function CreationProfilViewModel() {
     currentDay: new Date().getDate(),
     currentMonth: new Date().getMonth() + 1,
     currentYear: new Date().getFullYear(),
-    genre : ["Homme", "Femme", "Autre"],
+    genre : ["Homme", "Femme", "Ne souhaite pas l'indiquer"],
     selectedListPickerIndex: 0,
   });
 
