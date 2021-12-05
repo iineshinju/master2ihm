@@ -1,6 +1,7 @@
 <Page
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
+    <!-- xmlns:dd="nativescript-drop-down"> -->
 
     <ActionBar></ActionBar>
 
@@ -16,9 +17,11 @@
        <label text="Date de naissance"  />
        <!--<DatePicker year=" 1990" month="01" day="01"> </DatePicker>  -->
        <label text="Genre"  />
-      <!-- <ListPicker items="{{items}}" /> -->
-       <!-- <select name="genre">
-        <option value=""Choisissez une option</option>
+      <!-- <dd:DropDown items="{{ genre }}" hint="Selectionnez votre genre" 
+                 style="background-color: cyan" /> -->
+      <ListPicker items="{{ genre }}" selectedIndex="{{ selectedListPickerIndex }}"/>
+      <!--  <select name="genre">
+        <option value="Choisissez une option"></option>
         <option value="homme">Homme</option>
         <option value="femme">Femme</option>
         <option value="autre">Autre</option>
