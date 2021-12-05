@@ -6,6 +6,10 @@
     <StackLayout class="page__content"  >
         <Label  text="Ajoutez des passions" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
        <TextField  hint="Ajoutez une nouvelle passion" color="darkblue" marginBottom="10"  />
+       <Label  text="Basket" />
+       <Button text="Supprimer" ></Button>
+       <Label  text="Pâtisserie" />
+       <Button text="Supprimer" ></Button>
        <Button text="Enregistrer" tap="toProfil" ></Button>
     </StackLayout>
 </Page>
