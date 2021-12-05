@@ -7,7 +7,7 @@
     <StackLayout class="page__content"  >
         <Label  text="Créez votre profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
         <Button text="Ajoutez une photo de profil" ></Button>
-        <Button text="Localisation" class="localisationButton" style ="display:inline-block"  ></Button> 
+        <Button text="Localisation" tap ="toLocalisation" class="localisationButton" style ="display:inline-block"  ></Button> 
        <label text="A propos" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
        <label text="Nom - Prénom"  />
        <TextField  hint="Insérez votre nom et prénom" color="darkblue" marginBottom="10" />

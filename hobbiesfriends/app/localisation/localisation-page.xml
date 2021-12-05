@@ -1,0 +1,12 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd" >
+    <ActionBar></ActionBar>
+
+    <StackLayout class="page__content"  >
+        <Label  text="Ajoutez sa localisation" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
+       <TextField  hint="Entrer le nom e votre ville" color="darkblue" marginBottom="10"  />
+       <Label  text="Ajoutez votre localisation en autorisant Hobbies Friends à accèder à votre position actuelle" />
+       <Button text="Enregistrer" tap="toProfil" ></Button>
+    </StackLayout>
+</Page>

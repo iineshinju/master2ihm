@@ -14,3 +14,8 @@ export function onNavigatingTo(args) {
   //});
 //}
 
+export function toLocalisation(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/localisation/localisation-page");
+}
