@@ -2,12 +2,24 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
-        <Label text="Search"></Label>
-    </ActionBar>
+    <ActionBar></ActionBar>
 
-    <GridLayout class="page__content">
-        <Label class="page__content-icon fas" text="&#xf002;"></Label>
-        <Label class="page__content-placeholder" text="<!-- Search page content goes here -->"></Label>
-    </GridLayout>
+    <StackLayout class="page__content"  >
+        <Label  text="Mon profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
+        <Image src="~/images/Charlie.jpg" style="width:400px; border-radius: 100%;"></Image>
+        <Label  text="Charlie" style=" font-size: 30; text-align: center ;font-weight: bold"/>
+        <Label  text="Grenoble, France" style=" font-size: 30; text-align: center"/>
+        <Button text="Editer" horizontalAlignment="center" style="font-size: 18; font-weight: bold;" tap="toProfil" > </Button>
+        <label text="A propos" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
+       <label text="Email" style="font-size:20"  />
+       <Label  text="azerty@gmail.com" style=" font-weight: bold;font-size: 20"/>
+       <label text="Date de naissance"  style="font-size:20"  />
+       <Label  text="01-01-1991" style=" font-weight: bold;font-size: 20"/>
+       <label text="Genre" style="font-size:20"   />
+       <Label  text="Homme" style=" font-weight: bold;font-size: 20"/>
+       <label text="Vos passions" style="font-size:20"   />
+       <Label  text="Basket-Pâtisserie" style=" font-weight: bold;font-size: 20"/>
+       <label text="Notifications" style="font-size:20"    />
+       <Label  text="Notifications activées" style=" font-weight: bold;font-size: 20"/>
+    </StackLayout>
 </Page>

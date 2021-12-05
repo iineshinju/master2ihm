@@ -24,3 +24,9 @@ export function toNotifications(args) {
   const page = button.page;
   page.frame.navigate("~/notifications/notifications-page");
 }
+
+export function toProfil(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/profil/profil-page");
+}

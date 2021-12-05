@@ -16,15 +16,15 @@
        <TextField  hint="Insérez votre email" color="darkblue" marginBottom="10" />
        <label text="Date de naissance"  />
        <!--<DatePicker year=" 1990" month="01" day="01"> </DatePicker>  -->
-      <DatePicker year="{{ currentYear }}" month="{{ currentMonth }}"
+      <!--<DatePicker year="{{ currentYear }}" month="{{ currentMonth }}"
                 day="{{ currentDay}}" minDate="1970-01-01"
-                maxDate="2100-12-31" /> 
+                maxDate="2100-12-31" /> -->
        <label text="Genre"  />
       <ListPicker items="{{ genre }}" selectedIndex="{{ selectedListPickerIndex }}"/>
        <label text="Vos passions"  />
        <Button text="Ajouter des passions" horizontalAlignment="left"  tap="toAjoutPassions" > </Button>
        <label text="Notifications"  />
        <Button text="Ajouter des notifications" horizontalAlignment="left"  tap="toNotifications" > </Button>
-       <Button text="Enregistrer"   ></Button> 
+       <Button text="Enregistrer"  tap="toProfil" ></Button> 
     </StackLayout>
 </Page>
