@@ -5,6 +5,13 @@ export function onNavigatingTo(args) {
   component.bindingContext = new LoginViewModel()
 }
 
+export function onBackButtonTap(args) {
+  const view = args.object
+  const page = view.page
+
+  page.frame.goBack()
+}
+
 export function toGoogle(args) {
   const Googlelogin = {
     title: "Connexion à votre compte Google",
