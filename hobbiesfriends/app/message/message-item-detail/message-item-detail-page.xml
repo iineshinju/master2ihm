@@ -4,9 +4,10 @@
         <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
         <Label text="{{ name }}" />
     </ActionBar>
-
-    <GridLayout rows="*, *, *" columns="3*, *">
-		<Button text="Bloquer" tap="Bloquer" row="0" col="1"/>
-		<Label class="m-10 h3" text="{{ description }}" verticalAlignment="top" colSpan="2"/>
-    </GridLayout>
+      <StackLayout backgroundColor="azure">
+        <Image src="{{ photo }}" style="width:400px; border-radius: 100%; "></Image>
+        <Label class="person-name" text="{{ name }}"  textWrap="true" textAlignment="center"/>
+        <Label class="person-message" text="{{ message}}"  textWrap="true" textAlignment="left"/>
+        <Button text="Bloquer" tap="Bloquer" row="0" col="1"/>
+      </StackLayout>
 </Page>
