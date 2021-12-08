@@ -2,7 +2,7 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-	<ListView items="{{ items }}" itemTap="onItemTap">
+	<ListView items="{{ persons }}" itemTap="onItemTap">
 		<ListView.itemTemplate>
 			<StackLayout orientation="horizontal">
 				<Image src="{{ photo }}"></Image>
