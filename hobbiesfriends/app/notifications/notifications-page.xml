@@ -1,8 +1,7 @@
 <Page
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd"
-    xmlns:CheckBox="@nstudio/nativescript-checkbox" loaded="pageLoaded" >
-    <ActionBar></ActionBar>
+    xmlns:CheckBox="@nstudio/nativescript-checkbox" loaded="pageLoaded" actionBarHidden="true">
 
     <StackLayout class="page__content"  >
         <Label  text="Notifications" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>

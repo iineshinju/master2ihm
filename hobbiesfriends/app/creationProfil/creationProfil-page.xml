@@ -1,10 +1,10 @@
 <Page
     navigatingTo="onNavigatingTo"  
-    xmlns="http://schemas.nativescript.org/tns.xsd">
+    xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
     <!-- xmlns:dd="nativescript-drop-down"> -->
 
 	<ScrollView>
-    <StackLayout class="page__content"  >
+    <StackLayout>
         <Label  text="Créez votre profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
         <Button text="Ajoutez une photo de profil" ></Button>
         <Button text="Localisation" tap ="toLocalisation" class="localisationButton" style ="display:inline-block"  ></Button> 
