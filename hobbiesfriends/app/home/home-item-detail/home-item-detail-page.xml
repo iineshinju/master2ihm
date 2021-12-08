@@ -5,7 +5,11 @@
         <Label text="{{ name }}" />
     </ActionBar>
 
-    <GridLayout>
-        <Label class="m-10 h3" text="{{ description }}" verticalAlignment="top" />
+	<ScrollView>
+    <GridLayout rows="2*, *, *">
+		<Image src="{{ photo }}" row="0"></Image>
+		<Label class="m-10 h3" text="{{ passion }}" verticalAlignement="top" row="1" textWrap="true"/>
+        <Label class="m-10 h3" text="{{ description }}" verticalAlignement="top" row="2" textWrap="true"/>
     </GridLayout>
+	</ScrollView>
 </Page>
