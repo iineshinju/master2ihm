@@ -5,7 +5,8 @@
         <Label text="{{ name }}" />
     </ActionBar>
 
-    <GridLayout>
-        <Label class="m-10 h3" text="{{ description }}" verticalAlignment="top" />
+    <GridLayout rows="*, *, *" columns="3*, *">
+		<Button text="Bloquer" tap="Bloquer" row="0" col="1"/>
+		<Label class="m-10 h3" text="{{ description }}" verticalAlignment="top" colSpan="2"/>
     </GridLayout>
 </Page>
