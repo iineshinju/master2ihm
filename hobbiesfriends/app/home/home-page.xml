@@ -4,10 +4,11 @@
 
 	<ListView items="{{ persons }}" itemTap="onItemTap">
 		<ListView.itemTemplate>
-			<StackLayout orientation="horizontal">
+			<StackLayout backgroundColor="azure">
+				<Label text="{{ name }}"  textWrap="true"  color="red" />
 				<Image src="{{ photo }}"></Image>
-				<Label text="{{ name }}" textWrap="true" />
-				<Label text="{{ passion }}" textWrap="true" />
+				<Label text="{{ passion }}"  textWrap="true" color="blue"/>
+				<Label text="{{ end }}"  textWrap="true" color="red" textAlignment="center"/>
 			</StackLayout>
 		</ListView.itemTemplate>
 	</ListView>
