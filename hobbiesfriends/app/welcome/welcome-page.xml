@@ -1,10 +1,11 @@
 <Page
-    navigatingTo="onNavigatingTo">
+    navigatingTo="onNavigatingTo"  actionBarHidden="true">
 
     <StackLayout class="page__content">
-        <Label text="Une passion, un ami" class="page__content-placeholder"></Label>
+        <Label text="Une passion" class="title-top"/>
+		<Label text="un ami" class="title-bottom"/>
         <Image src="~/images/logo.png"></Image>
-        <Button text="Inscription" tap="toInscription"></Button>
-        <Button text="Connexion" tap="toConnexion"></Button>
+		<Button class="button_color-blue" text="Connexion" tap="toConnexion"/>
+		<Button class="button_color-red" text="Créer un compte" tap="toInscription"/>
     </StackLayout>
 </Page>
