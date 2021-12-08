@@ -2,16 +2,16 @@
 
     <ActionBar>
         <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
-        <Label text="{{ name }}" />
+        <Label class="person-name2" text="{{ name }}" />
     </ActionBar>
 
 	<ScrollView>
     <GridLayout rows="2*, *, *, *" columns="*,*">
-		<Image src="{{ photo }}" row="0" colSpan="2"></Image>
-		<Label class="m-10 h3" text="{{ passion }}" verticalAlignement="top" row="1" colSpan="2" textWrap="true"/>
-        <Label class="m-10 h3" text="{{ description }}" verticalAlignement="top" row="2" colSpan="2" textWrap="true"/>
-		<Button text="Refuser" tap="refuser" row="4" col="0" backgroundColor="red"/>
-		<Button text="Accepter" tap="accepter" row="4" col="1" backgroundColor="azure"/>
+		<Image src="{{ photo }}" weight="90%" row="0" colSpan="2"></Image>
+		<Label class="person-passion" text="{{ passion }}" verticalAlignement="top" row="1" colSpan="2" textWrap="true"/>
+        <Label class="person-description" text="{{ description }}" verticalAlignement="top" row="2" colSpan="2" textWrap="true"/>
+		<Button class="button_color-red" text="Refuser" tap="refuser" row="4" col="0"/>
+		<Button class="button_color-blue" text="Accepter" tap="accepter" row="4" col="1"/>
     </GridLayout>
 	</ScrollView>
 </Page>
