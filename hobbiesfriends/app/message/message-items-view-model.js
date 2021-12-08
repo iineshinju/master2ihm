@@ -2,73 +2,68 @@ import { fromObject } from '@nativescript/core'
 
 export function MessageItemsViewModel() {
   const viewModel = fromObject({
-    items: [
+    persons: [
       {
-        name: 'Item 1',
-        description: 'Description for Item 1',
+        name: 'Alia',
+        photo: '~/images/person1.jpg',
+        message: 'Hi',
+        end: '',
       },
       {
-        name: 'Item 2',
-        description: 'Description for Item 2',
+        name: 'Bastien',
+        photo: '~/images/person2.jpg',
+        message: 'I am waiting for you.',
+        end: '',
       },
       {
-        name: 'Item 3',
-        description: 'Description for Item 3',
+        name: 'Tom',
+        photo: '~/images/person3.jpg',
+        message: 'Can we go somewhere?',
+        end: '',
       },
       {
-        name: 'Item 4',
-        description: 'Description for Item 4',
+        name: 'Alexandra',
+        photo: '~/images/person4.jpg',
+        message: 'Lorem ipsum dolor sit amet.',
+        end: '',
       },
       {
-        name: 'Item 5',
-        description: 'Description for Item 5',
+        name: 'Jeanne',
+        photo: '~/images/person5.jpg',
+        message: 'ut labore et dolore magna aliquyam erat,',
+        end: '',
       },
       {
-        name: 'Item 6',
-        description: 'Description for Item 6',
+        name: 'Louis',
+        photo: '~/images/person6.jpg',
+        message: 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,',
+        end: '',
       },
       {
-        name: 'Item 7',
-        description: 'Description for Item 7',
+        name: 'Igor',
+        photo: '~/images/person7.jpg',
+        message: ' sed diam voluptua.',
+        end: '',
       },
       {
-        name: 'Item 8',
-        description: 'Description for Item 8',
+        name: 'Rothema',
+        photo: '~/images/person8.jpg',
+        message: ' sed diam voluptua.',
+        end: '',
       },
       {
-        name: 'Item 9',
-        description: 'Description for Item 9',
+        name: 'Jack',
+        photo: '~/images/person9.jpg',
+        message: ' sed diam voluptua.',
+        end: '',
       },
       {
-        name: 'Item 10',
-        description: 'Description for Item 10',
-      },
-      {
-        name: 'Item 11',
-        description: 'Description for Item 11',
-      },
-      {
-        name: 'Item 12',
-        description: 'Description for Item 12',
-      },
-      {
-        name: 'Item 13',
-        description: 'Description for Item 13',
-      },
-      {
-        name: 'Item 14',
-        description: 'Description for Item 14',
-      },
-      {
-        name: 'Item 15',
-        description: 'Description for Item 15',
-      },
-      {
-        name: 'Item 16',
-        description: 'Description for Item 16',
+        name: 'James',
+        photo: '~/images/person10.jpg',
+        message: ' consetetur sadipscing elitr.',
+        end:'Voir plus',
       },
     ],
   })
-
   return viewModel
 }
