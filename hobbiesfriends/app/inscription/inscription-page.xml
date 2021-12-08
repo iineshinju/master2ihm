@@ -2,7 +2,6 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd" >
     <!--xmlns:gsb="nativescript-plugin-google-signin-button" --> 
-    <ActionBar></ActionBar>
 
     <StackLayout class="page__content"  >
         <Label  text="Inscription" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
