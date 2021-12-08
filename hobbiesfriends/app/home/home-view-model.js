@@ -9,7 +9,8 @@ export function HomeViewModel() {
         passion: 'Patisserie',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
-        + ' sed diam voluptua.',
+          + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Bastien',
@@ -18,6 +19,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Tom',
@@ -26,6 +28,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Alexandra',
@@ -34,6 +37,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Jeanne',
@@ -42,6 +46,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Louis',
@@ -50,6 +55,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Igor',
@@ -58,6 +64,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Rothema',
@@ -66,6 +73,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'Jack',
@@ -74,6 +82,7 @@ export function HomeViewModel() {
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
+        end: '',
       },
       {
         name: 'James',
