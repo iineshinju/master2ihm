@@ -2,8 +2,7 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar></ActionBar>
-
+	<ScrollView>
     <StackLayout class="page__content"  >
         <Label  text="Mon profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
         <Image src="~/images/Charlie.jpg" style="width:400px; border-radius: 100%;"></Image>
@@ -22,4 +21,5 @@
        <label text="Notifications" style="font-size:20"    />
        <Label  text="Notifications activées" style=" font-weight: bold;font-size: 20"/>
     </StackLayout>
+	</ScrollView>
 </Page>

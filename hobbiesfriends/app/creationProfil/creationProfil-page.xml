@@ -3,8 +3,7 @@
     xmlns="http://schemas.nativescript.org/tns.xsd">
     <!-- xmlns:dd="nativescript-drop-down"> -->
 
-    <ActionBar></ActionBar>
-
+	<ScrollView>
     <StackLayout class="page__content"  >
         <Label  text="Créez votre profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
         <Button text="Ajoutez une photo de profil" ></Button>
@@ -27,4 +26,5 @@
        <Button text="Ajouter des notifications" horizontalAlignment="left"  tap="toNotifications" > </Button>
        <Button text="Enregistrer"  tap="toProfil" ></Button> 
     </StackLayout>
+	</ScrollView>
 </Page>
