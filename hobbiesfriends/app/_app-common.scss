@@ -44,3 +44,47 @@
     margin-top: 20%;
   }
 }
+
+.button_color {
+    &-red {
+        background-color: tomato;
+        color: black;
+        border-color: indianred;
+        border-radius: 20;
+        border-width: 1;
+        font-size: 18;
+        font-weight: bold;
+        margin: 50px 0;
+    }
+
+    &-blue {
+        background-color: deepskyblue;
+        color: black;
+        border-color: darkcyan;
+        border-radius: 20;
+        border-width: 1;
+        font-size: 18;
+        font-weight: bold;
+        margin: 50px 0;
+    }
+}
+
+.title {
+    &-bottom {
+        font-family: Cambria;
+        font-size: 24;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        margin-bottom: 50;
+    }
+
+    &-top {
+        font-family: Cambria;
+        font-size: 24;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        margin-top: 50;
+    }
+}
