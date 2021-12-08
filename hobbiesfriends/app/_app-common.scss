@@ -67,9 +67,22 @@
         font-weight: bold;
         margin: 50px 0;
     }
+
+    &-none {
+        border: 0;
+        color: black;
+        text-decoration: underline;
+    }
 }
 
 .title {
+    font-family: Cambria;
+    font-size: 30;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+
+
     &-bottom {
         font-family: Cambria;
         font-size: 24;
@@ -87,4 +100,13 @@
         color: black;
         margin-top: 50;
     }
+}
+
+.text_field {
+    color: dimgray;
+    border-color: darkgray;
+    border-radius: 20;
+    border-width: 1;
+    margin: 20px;
+    padding-left:20;
 }
