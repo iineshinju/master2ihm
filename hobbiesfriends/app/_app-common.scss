@@ -4,22 +4,6 @@
 // Place any CSS rules you want to apply on both iOS and Android here.
 // This is where the vast majority of your CSS code goes.
 
-// Font icon class
-.fab {
-  font-family: 'Font Awesome 5 Brands', 'fa-brands-400';
-  font-weight: 400;
-}
-
-.fas {
-  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
-  font-weight: 900;
-}
-
-.far {
-  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
-  font-weight: 400;
-}
-
 // Custom tabstrip item class
 .navigation__item {
   &:active,
@@ -67,9 +51,22 @@
         font-weight: bold;
         margin: 50px 0;
     }
+
+    &-none {
+        border: 0;
+        color: black;
+        text-decoration: underline;
+    }
 }
 
 .title {
+    font-family: Cambria;
+    font-size: 30;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+
+
     &-bottom {
         font-family: Cambria;
         font-size: 24;
@@ -86,5 +83,56 @@
         text-align: center;
         color: black;
         margin-top: 50;
+    }
+
+    &-medium {
+        font-family: Cambria;
+        font-size: 18;
+        text-align: center;
+        color: black;
+        margin: 20 0;
+    }
+}
+
+.text_field {
+    color: dimgray;
+    border-color: darkgray;
+    border-radius: 20;
+    border-width: 1;
+    margin: 20px;
+    padding-left:20;
+}
+
+.person {
+    &-name {
+        font-family: Cambria;
+        font-size: 18;
+        text-align: center;
+        color: red;
+        background-color: floralwhite;
+        margin: 20 0;
+    }
+
+    &-name2 {
+        font-family: Cambria;
+        font-size: 18;
+        text-align: center;
+    }
+
+    &-passion {
+        font-family: Cambria;
+        font-size: 14;
+        text-align: center;
+        color: deepskyblue;
+        background-color: ghostwhite;
+        margin: 10 0;
+    }
+
+    &-description {
+        font-family: Cambria;
+        font-size: 12;
+        text-align: justify;
+        color: darkblue;
+        margin: 10;
     }
 }

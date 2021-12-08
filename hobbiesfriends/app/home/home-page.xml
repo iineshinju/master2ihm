@@ -1,13 +1,13 @@
 <Page
     navigatingTo="onNavigatingTo"  
-    xmlns="http://schemas.nativescript.org/tns.xsd">
+    xmlns="http://schemas.nativescript.org/tns.xsd"  actionBarHidden="true">
 
 	<ListView items="{{ persons }}" itemTap="onItemTap">
 		<ListView.itemTemplate>
 			<StackLayout backgroundColor="azure">
-				<Label text="{{ name }}"  textWrap="true"  color="red" />
+				<Label class="person-name" text="{{ name }}"  textWrap="true"/>
 				<Image src="{{ photo }}"></Image>
-				<Label text="{{ passion }}"  textWrap="true" color="blue"/>
+				<Label class="person-passion" text="{{ passion }}"  textWrap="true"/>
 				<Label text="{{ end }}"  textWrap="true" color="red" textAlignment="center"/>
 			</StackLayout>
 		</ListView.itemTemplate>

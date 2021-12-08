@@ -2,16 +2,19 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <GridLayout class="page__content" columns="*, *" rows="*,*,*,*,*,*,*,*" verticalAlignment="top">
-        <Label text="Connexion" col="0" row="0"></Label>
-        <Button text="Google" tap="toGoogle" col="0" row="1"/>
-        <Button text="Facebook" tap="toFacebook" col="1" row="1"/>
-        <Label text="Ou connectez-vous avec votre adresse email" colSpan="2" col="0" row="2" />
-        <TextField hint="Nom d'utilisateur" borderColor="blue" col="0" row="3" colSpan="2"/>
-        <TextField hint="Mot de passe" borderColor="red" col="0" row="4" colSpan="2" secure="true"/>
-        <Button text="Mot de passe oublié ?" col="1" row="5" tap="toPassword"/>
-        <Button text="Connexion" tap="toHome" col="0" row="6" colSpan="2"/>
-        <Label text="Vous n'avez pas de compte ?" row="8" col="0"/>
-		<Button text="Créez-en un" tap="toInscription" row="8" col="1"/>
+	<ActionBar>
+		<NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
+		<Label class="title" text="Connexion"/>
+	</ActionBar>
+	
+    <GridLayout columns="*, *" rows="2*,*,*,*,*,2*,*, *" verticalAlignment="top">
+        <Button class="button_color-red" text="Google" tap="toGoogle" col="0" row="0"/>
+        <Button class="button_color-blue" text="Facebook" tap="toFacebook" col="1" row="0"/>
+        <Label text="Ou connectez-vous avec votre adresse email"  textAlignment="center" colSpan="2" row="1" />
+        <TextField class="text_field" hint="Nom d'utilisateur" row="2" colSpan="2"/>
+        <TextField class="text_field" hint="Mot de passe" row="3" colSpan="2" secure="true"/>
+        <Button text="Mot de passe oublié ?" col="1" row="4" tap="toPassword"/>
+        <Button class="button_color-blue" text="Connexion" tap="toHome" col="0" row="5" colSpan="2"/>
+		<Button text="Vous n'avez pas de compte ? Créez-en un" tap="toInscription" row="7" colSpan="2"/>
     </GridLayout>
 </Page>
