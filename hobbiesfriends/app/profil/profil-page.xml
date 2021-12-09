@@ -2,24 +2,28 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd">
 
+	<ActionBar>
+		<NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
+		<Label class="person-name2" text="Mon profil" />
+	</ActionBar>
+
 	<ScrollView>
-    <StackLayout class="page__content"  >
-        <Label  text="Mon profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
-        <Image src="~/images/Charlie.jpg" style="width:400px; border-radius: 100%;"></Image>
-        <Label  text="Charlie" style=" font-size: 30; text-align: center ;font-weight: bold"/>
-        <Label  text="Grenoble, France" style=" font-size: 30; text-align: center"/>
-        <Button text="Editer" horizontalAlignment="center" style="font-size: 18; font-weight: bold;" tap="toProfil" > </Button>
-        <label text="A propos" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
-       <label text="Email" style="font-size:20"  />
-       <Label  text="azerty@gmail.com" style=" font-weight: bold;font-size: 20"/>
-       <label text="Date de naissance"  style="font-size:20"  />
-       <Label  text="01-01-1991" style=" font-weight: bold;font-size: 20"/>
-       <label text="Genre" style="font-size:20"   />
-       <Label  text="Homme" style=" font-weight: bold;font-size: 20"/>
-       <label text="Vos passions" style="font-size:20"   />
-       <Label  text="Basket-Pâtisserie" style=" font-weight: bold;font-size: 20"/>
-       <label text="Notifications" style="font-size:20"    />
-       <Label  text="Notifications activées" style=" font-weight: bold;font-size: 20"/>
+    <StackLayout>
+        <Image src="~/images/Charlie.jpg" style="width:400px; border-radius: 100%; margin-top: 20"/>
+        <Label class="profil-name" text="Charlie"/>
+        <Label class="profil-localisation" text="Grenoble, France"/>
+        <Button class="button_color-red" text="Éditer" horizontalAlignment="center" tap="toProfil" />
+        <Label class="profil-titleM" text="À propos"/>
+        <Label class="profil-title" text="Email" />
+        <Label class="profil-data" text="azerty@gmail.com"/>
+        <Label class="profil-title" text="Date de naissance" />
+        <Label class="profil-data" text="01-01-1991"/>
+        <Label class="profil-title" text="Genre" />
+        <Label class="profil-data" text="Homme"/>
+        <Label class="profil-title" text="Vos passions"/>
+        <Label class="profil-data" text="Basket - Pâtisserie"/>
+        <Label class="profil-title" text="Notifications" />
+        <Label class="profil-data" text="Notifications activées" marginBottom="50"/>
     </StackLayout>
 	</ScrollView>
 </Page>

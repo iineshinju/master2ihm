@@ -3,16 +3,18 @@
     xmlns="http://schemas.nativescript.org/tns.xsd"
     xmlns:CheckBox="@nstudio/nativescript-checkbox" loaded="pageLoaded" actionBarHidden="true">
 
-    <StackLayout class="page__content"  >
-        <Label  text="Notifications" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
+	<ScrollView>
+    <StackLayout>
+        <Label class="title-top" text="Notifications"/>
         <CheckBox:CheckBox text="Activer les notifications" checked="true" />
         <CheckBox:CheckBox text="Allumer l'écran" checked="false" />
         <CheckBox:CheckBox text="Vibreur" checked="true" />
         <CheckBox:CheckBox text="Son" checked="false" />
         <CheckBox:CheckBox text="Message" checked="true" />
-        <Label  text="Recevez des notifications lorsque quelqu'un vous envoie un message"/>
+        <Label class="title-small" textWrap="true" text="Recevez des notifications lorsque quelqu'un vous envoie un message"/>
         <CheckBox:CheckBox text="Match" checked="false" />
-        <Label  text="Recevez des notifications lorsque vous matchez avec quelqu'un"/>
-       <Button text="Enregistrer" tap="toProfil" ></Button>
+        <Label class="title-small" textWrap="true" text="Recevez des notifications lorsque vous matchez avec quelqu'un"/>
+       <Button class="button_color-blue" text="Enregistrer" tap="toProfil" ></Button>
     </StackLayout>
+	</ScrollView>
 </Page>
