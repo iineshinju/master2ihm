@@ -1,30 +1,17 @@
 <Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
 
-    <ActionBar>
-        <Label text="Message" />
-    </ActionBar>
+	<ActionBar>
+		<NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
+		<Label text="" />
+	</ActionBar>
 
-    <StackLayout class="page__content"  >
-        <label text="Nouveau Matchs" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
+    <StackLayout  backgroundColor="azure">
+        <Label class="title" text="Messages" />
         <ListView items="{{ persons }}" itemTap="onItemTap">
             <ListView.itemTemplate>
-                <StackLayout backgroundColor="azure">
-                    <Image src="{{ photo }}" style="width:100px; border-radius: 100%;"></Image>
-                    <Label class="person-name" text="{{ name }}"  textWrap="true"/>
-                    <Label text="{{ end }}"  textWrap="true" color="red" textAlignment="center"/>
-                </StackLayout>
-            </ListView.itemTemplate>
-        </ListView>
-        <label text="Messages" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
-        <ListView items="{{ persons }}" itemTap="onItemTap">
-            <ListView.itemTemplate>
-                <StackLayout backgroundColor="azure">
-                    <Label class="person-name" text="{{ name }}"  textWrap="true" textAlignment="center"/>
-                    <StackLayout  style='horizontal-align:left;'>
-                    <Image src="{{ photo }}" style="width:100px; border-radius: 100%; "></Image>
-                    </StackLayout>
-                    <Label class="person-message" text="{{ message}}"  textWrap="true" textAlignment="center"/>
-                    <Label text="{{ end }}"  textWrap="true" color="red" textAlignment="center"/>
+                <StackLayout orientation="horizontal">
+                    <Image src="{{ photo }}" style="height: 70; weight:70; border-radius: 100%; "/>
+					<Label class="title-medium" text="{{ name }}" textWrap="true"/>
                 </StackLayout>
             </ListView.itemTemplate>
         </ListView>
