@@ -2,12 +2,17 @@
 
     <ActionBar>
         <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
-        <Label text="{{ name }}" />
+		<Button text="Bloquer" tap="Bloquer" horizontalAlignment="right" width="100"/>
     </ActionBar>
       <StackLayout backgroundColor="azure">
-        <Image src="{{ photo }}" style="width:400px; border-radius: 100%; "></Image>
-        <Label class="person-name" text="{{ name }}"  textWrap="true" textAlignment="center"/>
-        <Label class="person-message" text="{{ message}}"  textWrap="true" textAlignment="left"/>
-        <Button text="Bloquer" tap="Bloquer" row="0" col="1"/>
+		<Image src="{{ photo }}" marginTop="25" style="width:400px; border-radius: 100%;"/>
+        <Label class="profil-name" text="{{ name }}" textWrap="true"/>
+		<Label class="profil-localisation" text="Message"/>
+		<Label class="person-message-name" text="{{ name }}" textWrap="true"/>
+        <Label class="person-message-recu" text="{{ message }}"  textWrap="true"/>
+		<Label class="person-message-yourname" text="Moi" textWrap="true"/>
+		<Label class="person-message-envoye" text="{{ message }}"  textWrap="true"/>
+		<TextField class="text_field" hint="Écrire votre message" height="35" marginTop="20"/>
+		<Button class="button_color-blue" text="Envoyer" horizontalAlignment="right" width="100" />
       </StackLayout>
 </Page>
