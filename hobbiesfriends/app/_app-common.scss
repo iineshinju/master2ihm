@@ -12,25 +12,9 @@
   }
 }
 
-// Common page class
-.page__content {
-  &-icon,
-  &-placeholder {
-    color: const(grey);
-    font-size: 20;
-    vertical-align: center;
-    horizontal-align: center;
-  }
-
-  &-icon {
-    font-size: 72;
-    vertical-align: top;
-    margin-top: 20%;
-  }
-}
-
 .button_color {
     &-red {
+        font-family: Cambria;
         background-color: tomato;
         color: black;
         border-color: indianred;
@@ -42,6 +26,7 @@
     }
 
     &-blue {
+        font-family: Cambria;
         background-color: deepskyblue;
         color: black;
         border-color: darkcyan;
@@ -53,6 +38,7 @@
     }
 
     &-none {
+        font-family: Cambria;
         border: 0;
         color: black;
         text-decoration: underline;
