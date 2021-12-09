@@ -2,13 +2,16 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
 
+	<ScrollView>
     <StackLayout>
        <Label class="title-top" text="Ajoutez des passions"/>
        <TextField class="text_field" hint="Ajoutez une nouvelle passion" height="50"/>
+		<Button class="button_color-blue" text="Ajouter"/>
        <Label class="title-medium" text="Basket" />
        <Button class="button_color-red" text="Supprimer"/>
        <Label class="title-medium" text="Pâtisserie" />
        <Button class="button_color-red" text="Supprimer" />
        <Button class="button_color-blue" text="Enregistrer" tap="toProfil" marginTop="70"/>
     </StackLayout>
+    </ScrollView>
 </Page>
