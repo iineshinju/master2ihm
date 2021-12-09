@@ -10,3 +10,8 @@ export function onBackButtonTap(args) {
 
   page.frame.goBack()
 }
+
+export function bloquer(args) {
+  const button = args.object;
+  const page = button.page;
+}
