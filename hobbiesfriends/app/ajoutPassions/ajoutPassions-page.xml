@@ -2,13 +2,13 @@
     navigatingTo="onNavigatingTo"  
     xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
 
-    <StackLayout class="page__content"  >
-        <Label  text="Ajoutez des passions" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
-       <TextField  hint="Ajoutez une nouvelle passion" color="darkblue" marginBottom="10"  />
-       <Label  text="Basket" />
-       <Button text="Supprimer" ></Button>
-       <Label  text="Pâtisserie" />
-       <Button text="Supprimer" ></Button>
-       <Button text="Enregistrer" tap="toProfil" ></Button>
+    <StackLayout>
+       <Label class="title-top" text="Ajoutez des passions"/>
+       <TextField class="text_field" hint="Ajoutez une nouvelle passion" height="50"/>
+       <Label class="title-medium" text="Basket" />
+       <Button class="button_color-red" text="Supprimer"/>
+       <Label class="title-medium" text="Pâtisserie" />
+       <Button class="button_color-red" text="Supprimer" />
+       <Button class="button_color-blue" text="Enregistrer" tap="toProfil" marginTop="70"/>
     </StackLayout>
 </Page>

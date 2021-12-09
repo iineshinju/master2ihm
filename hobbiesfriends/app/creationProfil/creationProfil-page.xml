@@ -5,26 +5,26 @@
 
 	<ScrollView>
     <StackLayout>
-        <Label  text="Créez votre profil" style="margin-bottom: 30; font-size: 50; text-align: left ;font-weight: bold"/>
-        <Button text="Ajoutez une photo de profil" ></Button>
-        <Button text="Localisation" tap ="toLocalisation" class="localisationButton" style ="display:inline-block"  ></Button> 
-       <label text="A propos" style="margin-bottom: 30; color: red;  text-align: left ;font-weight: bold; ; font-size: 30" />
-       <label text="Nom - Prénom"  />
-       <TextField  hint="Insérez votre nom et prénom" color="darkblue" marginBottom="10" />
-       <label text="Email"  />
-       <TextField  hint="Insérez votre email" color="darkblue" marginBottom="10" />
-       <label text="Date de naissance"  />
+        <Label class="title-top" text="Créez votre profil"/>
+        <Button class="button_color-red" text="Ajoutez une photo de profil" />
+        <Button class="button_color-blue" text="Localisation" tap ="toLocalisation" /> 
+       <Label class="title" text="À propos"/>
+       <Label class="title-small" text="Nom - Prénom"  />
+       <TextField class="text_field" hint="Insérez votre nom et prénom"/>
+       <Label class="title-small" text="Email"  />
+       <TextField class="text_field" hint="Insérez votre email"/>
+       <Label class="title-small" text="Date de naissance"  />
        <!--<DatePicker year=" 1990" month="01" day="01"> </DatePicker>  -->
       <DatePicker year="{{ currentYear }}" month="{{ currentMonth }}"
                 day="{{ currentDay}}" minDate="1970-01-01"
                 maxDate="2100-12-31" /> 
-       <label text="Genre"  />
-      <ListPicker items="{{ genre }}" selectedIndex="{{ selectedListPickerIndex }}"/>
-       <label text="Vos passions"  />
-       <Button text="Ajouter des passions" horizontalAlignment="left"  tap="toAjoutPassions" > </Button>
-       <label text="Notifications"  />
-       <Button text="Ajouter des notifications" horizontalAlignment="left"  tap="toNotifications" > </Button>
-       <Button text="Enregistrer"  tap="toProfil" ></Button> 
+       <Label class="title-small" text="Genre"  />
+       <ListPicker items="{{ genre }}" selectedIndex="{{ selectedListPickerIndex }}"/>
+       <Label class="title-small" text="Vos passions"  />
+       <Button class="button_color-red" text="Ajouter des passions" horizontalAlignment="right"  tap="toAjoutPassions"/>
+       <Label class="title-small" text="Notifications"  />
+       <Button class="button_color-red" text="Ajouter des notifications" horizontalAlignment="right"  tap="toNotifications" />
+       <Button class="button_color-blue" text="Enregistrer"  tap="toProfil" /> 
     </StackLayout>
 	</ScrollView>
 </Page>
