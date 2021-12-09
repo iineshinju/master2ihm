@@ -15,7 +15,7 @@ export function HomeViewModel() {
       {
         name: 'Bastien',
         photo: '~/images/person2.jpg',
-        passion: '',
+        passion: 'Basket - Patisserie',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -24,7 +24,7 @@ export function HomeViewModel() {
       {
         name: 'Tom',
         photo: '~/images/person3.jpg',
-        passion: '',
+        passion: 'Basket',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -33,7 +33,7 @@ export function HomeViewModel() {
       {
         name: 'Alexandra',
         photo: '~/images/person4.jpg',
-        passion: '',
+        passion: 'Basket - Patisserie',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -42,7 +42,7 @@ export function HomeViewModel() {
       {
         name: 'Jeanne',
         photo: '~/images/person5.jpg',
-        passion: '',
+        passion: 'Patisserie',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -60,7 +60,7 @@ export function HomeViewModel() {
       {
         name: 'Igor',
         photo: '~/images/person7.jpg',
-        passion: '',
+        passion: 'Basket',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -69,7 +69,7 @@ export function HomeViewModel() {
       {
         name: 'Rothema',
         photo: '~/images/person8.jpg',
-        passion: '',
+        passion: 'Basket',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -78,7 +78,7 @@ export function HomeViewModel() {
       {
         name: 'Jack',
         photo: '~/images/person9.jpg',
-        passion: '',
+        passion: 'Patisserie',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
@@ -87,7 +87,7 @@ export function HomeViewModel() {
       {
         name: 'James',
         photo: '~/images/person10.jpg',
-        passion: '',
+        passion: 'Basket',
         description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr,'
           + 'sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,'
           + ' sed diam voluptua.',
