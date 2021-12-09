@@ -144,4 +144,95 @@
         color: darkblue;
         margin: 10;
     }
+
+    &-message {
+        &-recu {
+            font-family: Cambria;
+            font-size: 20;
+            text-align: left;
+            color: darkblue;
+            background-color: cadetblue;
+            margin: 10 0;
+            padding-left: 20;
+        }
+
+        &-envoye {
+            font-family: Cambria;
+            font-size: 20;
+            text-align: right;
+            color: darkblue;
+            background-color: tomato;
+            margin: 10 0;
+            padding-right: 20;
+        }
+
+        &-name {
+            font-family: Cambria;
+            font-size: 12;
+            text-align: left;
+            font-weight: bold;
+            color: dark;
+            padding-left: 10;
+        }
+
+        &-yourname {
+            font-family: Cambria;
+            font-size: 12;
+            text-align: right;
+            font-weight: bold;
+            color: dark;
+            padding-right: 10;
+        }
+    }
+}
+
+.profil {
+    &-name {
+        font-family: Cambria;
+        font-size: 25;
+        font-weight: bold;
+        text-align: center;
+        color: midnightblue;
+        background-color: powderblue;
+        margin: 20 0 0;
+    }
+
+    &-localisation {
+        font-family: Cambria;
+        font-size: 25;
+        font-weight: bold;
+        text-align: center;
+        color: firebrick;
+        background-color: burlywood;
+        margin: 0 0 20;
+    }
+
+    &-titleM {
+        font-family: Cambria;
+        font-size: 30;
+        font-weight: bold;
+        text-align: left;
+        color: black;
+        background-color: powderblue;
+        margin: 20 0;
+        padding-left: 20;
+    }
+
+    &-title {
+        font-family: Cambria;
+        font-size: 18;
+        text-align: left;
+        color: black;
+        font-weight: bold;
+        margin: 5 10;
+    }
+
+    &-data {
+        font-family: Cambria;
+        font-size: 16;
+        font-style: italic;
+        text-align: right;
+        color: black;
+        margin-right: 10;
+    }
 }
