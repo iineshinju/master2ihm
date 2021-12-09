@@ -8,6 +8,6 @@
         <Image src="{{ photo }}" style="width:400px; border-radius: 100%; "></Image>
         <Label class="person-name" text="{{ name }}"  textWrap="true" textAlignment="center"/>
         <Label class="person-message" text="{{ message}}"  textWrap="true" textAlignment="left"/>
-        <Button text="Bloquer" tap="Bloquer" row="0" col="1"/>
+        <Button text="Bloquer" tap="bloquer" />
       </StackLayout>
 </Page>
