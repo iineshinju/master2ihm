@@ -2,7 +2,7 @@
 
     <ActionBar>
         <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
-		<Button text="Bloquer" tap="Bloquer" horizontalAlignment="right" width="100"/>
+		<Button text="Bloquer" tap="bloquer" horizontalAlignment="right" width="100"/>
     </ActionBar>
       <StackLayout backgroundColor="azure">
 		<Image src="{{ photo }}" marginTop="25" style="width:400px; border-radius: 100%;"/>
