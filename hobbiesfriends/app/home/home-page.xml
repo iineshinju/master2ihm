@@ -5,12 +5,14 @@
 	<ScrollView>
 	<ListView items="{{ persons }}" itemTap="onItemTap">
 		<ListView.itemTemplate>
-			<StackLayout backgroundColor="azure">
-				<Label class="person-name" text="{{ name }}"  textWrap="true"/>
-				<Image src="{{ photo }}"></Image>
-				<Label class="person-passion" text="{{ passion }}"  textWrap="true"/>
-				<Label text="{{ end }}"  textWrap="true" color="red" textAlignment="center"/>
-			</StackLayout>
+			<GridLayout rows="*, 2*, *, *" columns="*,*" backgroundColor="azure">
+				<Label class="person-name" text="{{ name }}"  textWrap="true" colSpan="2" row="0"/>
+				<Image src="{{ photo }}" colSpan="2" row="1"/>
+				<Label class="person-passion" text="{{ passion }}"  textWrap="true" row="2" colSpan="2"/>
+				<Button class="button_color-red" text="Refuser" tap="refuser" row="3" col="0"/>
+				<Button class="button_color-blue" text="Demander" tap="accepter" row="3" col="1"/>
+				<Label text="{{ end }}"  textWrap="true" color="red" textAlignment="center" row="4" colSpan="2"/>
+			</GridLayout>
 		</ListView.itemTemplate>
 	</ListView>
 	</ScrollView>
