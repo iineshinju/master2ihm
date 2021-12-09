@@ -6,8 +6,8 @@
 	<ScrollView>
     <StackLayout>
         <Label class="title-top" text="Créez votre profil"/>
-        <Button class="button_color-red" text="Ajoutez une photo de profil" />
-        <Button class="button_color-blue" text="Localisation" tap ="toLocalisation" /> 
+        <Button class="button_color-red" text="Ajoutez une photo de profil" tap="alertPhoto"/>
+        <Button class="button_color-blue" text="Localisation" tap="toLocalisation" /> 
        <Label class="title" text="À propos"/>
        <Label class="title-small" text="Nom - Prénom"  />
        <TextField class="text_field" hint="Insérez votre nom et prénom"/>

@@ -1,10 +1,20 @@
 import { CreationProfilViewModel } from './creationProfil-view-model';
 
-
-
 export function onNavigatingTo(args) {
    const component = args.object
   component.bindingContext = new CreationProfilViewModel()
+}
+
+export function alertPhoto(args) {
+  const alertPhoto = {
+    title: "Redirection",
+    message: "Vous allez être redirigé vers votre stockage interne, avant de revenir sur cette page.",
+    cancelButtonText: "D'accord"
+  };
+
+  action(alertPhoto).then((result) => {
+    console.log(result);
+  });
 }
 
 export function toLocalisation(args) {
