@@ -1,2 +1,17 @@
-<Frame defaultPage="welcome/welcome-page">
-</Frame>
+<TabView androidTabsPosition="bottom">
+	<TabViewItem title="Bienvenue" >
+		<Frame defaultPage="welcome/welcome-page" />
+	</TabViewItem>
+
+	<TabViewItem title="Home" >
+		<Frame defaultPage="home/home-page" />
+	</TabViewItem>
+
+	<TabViewItem title="Message" >
+		<Frame defaultPage="message/message-items-page" />
+	</TabViewItem>
+
+	<TabViewItem title="Profil" >
+		<Frame defaultPage="profil/profil-page" />
+	</TabViewItem>
+</TabView>
