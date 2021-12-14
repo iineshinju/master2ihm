@@ -21,3 +21,33 @@ export function onItemTap(args) {
     },
   })
 }
+
+export function refuser(args) {
+  const button = args.object;
+  const page = button.page;
+  page.frame.navigate("~/home/home-page");
+}
+
+export function accepter(args) {
+  const button = args.object;
+  const page = button.page;
+
+  const confirmOptions = {
+    title: "Match",
+    message: "Vous pouvez commencer à parler avec votre nouvel(le) ami(e) !!"
+      + "\nVoulez-vous discuter avec maintenant ?",
+    okButtonText: "Discuter",
+    cancelButtonText: "Pas tout de suite"
+  };
+  confirm(confirmOptions)
+    .then((result) => {
+      if (result) {
+        page.frame.navigate("~/message/message-items-page");
+      }
+      else {
+        page.frame.navigate("~/home/home-page");
+      }
+    });
+
+}
+
