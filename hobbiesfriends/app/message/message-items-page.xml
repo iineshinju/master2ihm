@@ -1,16 +1,11 @@
-<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
-
-	<ActionBar>
-		<NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
-		<Label text="" />
-	</ActionBar>
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
 
     <StackLayout  backgroundColor="azure">
-        <Label class="title" text="Messages" />
+        <Label class="title-top" text="Messages" />
         <ListView items="{{ persons }}" itemTap="onItemTap">
             <ListView.itemTemplate>
                 <StackLayout orientation="horizontal">
-                    <Image src="{{ photo }}" style="height: 70; weight:70; border-radius: 100%; "/>
+                    <Image class="image-message1" src="{{ photo }}" />
 					<Label class="title-medium" text="{{ name }}" textWrap="true"/>
                 </StackLayout>
             </ListView.itemTemplate>
