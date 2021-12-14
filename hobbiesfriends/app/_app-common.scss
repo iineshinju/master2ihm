@@ -169,6 +169,14 @@
             color: dark;
             padding-right: 10;
         }
+
+        &-bloquer {
+            font-family: Cambria;
+            color: black;
+            border-color: indianred;
+            border-radius: 20;
+            border-width: 5;
+        }
     }
 }
 
@@ -220,5 +228,19 @@
         text-align: right;
         color: black;
         margin-right: 10;
+    }
+}
+
+.image {
+    &-message1 {
+        height: 70;
+        width: 70;
+        border-radius: 100%;
+    }
+
+    &-message2 {
+        height: 150;
+        border-radius: 100%;
+        margin-top: 25;
     }
 }
