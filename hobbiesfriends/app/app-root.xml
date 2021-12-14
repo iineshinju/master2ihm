@@ -3,7 +3,7 @@
 		<Frame defaultPage="welcome/welcome-page" />
 	</TabViewItem>
 
-	<TabViewItem title="Home" >
+	<TabViewItem title="Ami" >
 		<Frame defaultPage="home/home-page" />
 	</TabViewItem>
 
